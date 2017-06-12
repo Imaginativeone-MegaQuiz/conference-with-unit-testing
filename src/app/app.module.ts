@@ -26,6 +26,8 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { TutorialPage } from '../pages/tutorial/tutorial';
 import { SupportPage } from '../pages/support/support';
 
+import { MegaquizPage } from '../pages/megaquiz/megaquiz';
+
 import { ConferenceData } from '../providers/conference-data';
 import { UserData } from '../providers/user-data';
 
@@ -37,6 +39,7 @@ import { UserData } from '../providers/user-data';
     AccountPage,
     LoginPage,
     MapPage,
+    MegaquizPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
@@ -60,6 +63,7 @@ import { UserData } from '../providers/user-data';
         { component: SpeakerListPage, name: 'SpeakerList', segment: 'speakerList' },
         { component: SpeakerDetailPage, name: 'SpeakerDetail', segment: 'speakerDetail/:name' },
         { component: MapPage, name: 'Map', segment: 'map' },
+        { component: MegaquizPage, name: 'Megaquiz', segment: 'megaquiz' },
         { component: AboutPage, name: 'About', segment: 'about' },
         { component: TutorialPage, name: 'Tutorial', segment: 'tutorial' },
         { component: SupportPage, name: 'SupportPage', segment: 'support' },
@@ -77,6 +81,7 @@ import { UserData } from '../providers/user-data';
     AccountPage,
     LoginPage,
     MapPage,
+    MegaquizPage,
     PopoverPage,
     SchedulePage,
     ScheduleFilterPage,
